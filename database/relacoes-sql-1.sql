@@ -29,7 +29,7 @@ VALUES
 
 INSERT INTO phones(id, phone_number, user_id)
 VALUES
-    ('p004', '5551985968563', 'u003'); -- era pra dar erro
+    ('p004', '5551985968563', 'u003');
 
 DELETE FROM phones
 WHERE user_id = 'u003';
